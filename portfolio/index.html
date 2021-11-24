@@ -7,46 +7,48 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="pictures/code4.jpg" type="image/svg+xml">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <title>ntombizanelemoni</title>
+
     <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.min.css">
-</head>
-<body class="hero" style="background-image: url(pictures/.jpg);">
+    </head>
+<body class="hero">
 <nav class="navbar navbar-light bg-light fixed-top">
-  <div class="container-fluid"> 
+  <div id="openNav" class="container-fluid"> 
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
-    </button>
+       </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" > <link rel="stylesheet" href="abou"></button>
-     
-    </div>
+         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" > <link rel="stylesheet" href="abou"></button>
+           </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
             <span class="material-icons-round">
               </span>
 
-            <a class="nav-link active" aria-current="page" href="#hero"  >Home</a>
-             </li>
+            <a class="nav-link active" aria-current="page" href="#hero" >Home</a>
+            
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
               </li>
           <li class="nav-item">
-            <a class="nav-link" href="#timeline">Work & Exprience</a>
+            <a class="nav-link" href="#timeline">Timeline</a>
              </li>
             <li class="nav-item">
-             <a class="nav-link" href="#skills">Skills</a>
-              </li>
+              <a class="nav-link" href="#skills">Skills</a>
+               </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
              </li>
@@ -56,8 +58,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
              </li>
-          
-           
         </ul>
       </div>
     </div>
@@ -69,22 +69,22 @@
 
 <section id="hero" class="hero-image p-5">
     <div class="hero-name">
-      <div style="font-size:80px" class="animate__animated animate__pulse animate__delay-2s">Ntombizanele Moni</div>
+      <div style="font-size:40px" class="animate__animated animate__pulse animate__delay-2s">Ntombizanele Moni</div>
       
-      <p>And I'm a Software Developer</p>
+      <p>I am an Aspiring Software Developer</p>
     </div>
 </section>
 
 <!-- About -->
 
 <section id="about">
-  <div class="about p-5" style=background-color:white;>
+  <div class="about p-5">
   <div class="row justify-content-center align-items-center">
     <div class="col-md-5 text-center text-md-start">
- <h2 class="display-3"class="bout">Ntombizanele's Portfolio</h2>
-    <h3>Software Developer</h3>
-      <p>23 years old  <br>  Date of Birth:25/12/1997 <br> Sex:Female</p>
-         <p>I am an aspiring software developer,dedicated and hardworking,I started coding in September 2021.</p>
+ <h2 class="display-3"class="bout">Zanele's Portfolio</h2>
+    <h3> Aspiring Software Developer</h3>
+      <p>I  got my start at LifeChoices and recently have been learning HTML, CSS, Bootstrap, and MySql.</p>
+         <p></p>
             </div>
   <div class="col-md-5 text-center d-none d-md-block">
     <img class="img-fluid p-5" src="pictures/zanele2.jpg">
@@ -95,206 +95,184 @@
 
 <!-- Timeline work experience -->
 
-<section id="timeline" > 
-  <div class="row">
-  <div class="tl-item col-12 col-md-3 col-lg-3">
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/801/801/nature)"></div>
-     <div class="year">
-      <p class="f2 heading--sanSerif">2003-2010</p>
-       </div>
+<style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style> 
+<!--This is the main container that contains the whole timeline.-->
+<section class="timeline" id="timeline">
+<div class="timeline"> 
 
-    <div class="tl-content">
-     <h1>Primary</h1>
-      <p>Started Primary school in 2003 and finished in 2010</p>
-       </div>
-        </div>
+          <!--Well, The reason for this div is to fill space. 
+This space is technically used for keeping dates, 
+but I didn't find the need for dates. However, I'll provide 
+you the styling for dates, so that you can use it if you 
+wanted to.-->
+                   <div class="timeline-empty">
+                    </div> 
 
-  <div class="tl-item col-12 col-md-3 col-lg-3">
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/802/802/nature)"></div>
-     <div class="year">
-      <p class="f2 heading--sanSerif">2011-2015</p>
-     </div>
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">High School</h1>
-       <p>Started high school in 2011 and finished my matric in 2015</p>
-        </div>
-         </div>
+<!--This is the class where the timeline graphics are 
+housed in. Note that we have timeline-circle 
+here for that pointer in timeline.-->
 
-  <div class="tl-item col-12 col-md-3 col-lg-3"> 
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/803/803/nature)"></div>
-     <div class="year">
-      <p class="f2 heading--sanSerif">2018-2020</p>
-       </div>
-    <div class="tl-content">
-     <h1 class="f3 text--accent ttu">Salon Work</h1>
-      <p>Worked for my sister at her salon</p>
-       </div>
-        </div>
+               <div class="timeline-middle">
+                 <div class="timeline-circle"></div>
+                    </div>
+               <div class="timeline-component timeline-content">
+                 <h3>2003-2010</h3>
+                  <p>Started Primary school in 2003 and finished in 2010</p>
+                    </div>
+                <div class="timeline-component timeline-content">
+                      <h3>2011-2015</h3>
+                       <p>Started high school in 2011 and finished my matric in 2015.</p>
+                         </div>
+                <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+                    </div>
+                <div class="timeline-empty">
+                   </div>
+                <div class="timeline-empty">
+                  </div>
 
-  <div class="tl-item col-12 col-md-3 col-lg-3">
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/800/800/nature)">
-     </div>
-      <div class="year">
-       <p class="f2 heading--sanSerif">2021</p>
-        </div>
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Life Choices</h1>
-       <p>started coding bootcamp at Life Choices</p>
-        </div>
-         </div>
-         </div>
-          </section>
-
-
+               <div class="timeline-middle">
+                   <div class="timeline-circle"></div>
+                    </div>
+               <div class=" timeline-component timeline-content">
+                 <h3>2018-2020</h3>
+                  <p>Worked for my sister at her salon.</p>
+                    </div>
+           <!-- <div class="timeline-component timeline-content">
+               <h3>2021</h3>
+                   <p>started coding bootcamp at Life Choices.</p>
+                     </div> -->
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                      </div>
+                        </div>
+                          </div> 
+    </section> 
 
 <!-- skills -->
 
-<section id="skills">
-<li class="nav-item p-5">
-            <a  class="nav-link active" aria-current="page" href="about.html" onclick="document.location='default.asp'"></a>
-          </li>
-          <h1 class="display-4 p-5"></h1>
 
-          <h1 class="display-4 p-5"></h1><br>
-          <div class="skills">
-            <div class="skills-bar">
-              <div class="bar">
-                <div class="info">
-                  <span>HTML</span>
-                </div>
-                <div class="progress-line"><span class="html"></span></div>
-                <div class="bar">
-                  <div class="info">
-                    <span>CSS</span>
-                  </div>
-                  <div class="progress-line"><span class="css"></span></div>
-                  <div class="bar">
-                    <div class="info">
-                      <span>BOOTSTRAP</span>
-                    </div>
-                    <div class="progress-line"><span class="bootstrap"></span></div>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-</section>
 
 <!-- Projects -->
-
 <section id="projects">
-<div class="card-group">
+<h1 class="card-container-heading">My Projects</h1>
+<!-- CARD CONTAINER HERE -->
+<div class="card-container">
+  <!--   FIRST CARD -->
   <div class="card">
-    <img src="" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">First Project</h5>
-      <p class="card-text">Online Store</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><p>
-            <a href="https://github.com/ZaneleMoni/online-store"
-              ><i class="fa fa-github"></i>Github</a
-            >
-          </p></small>
+    <!--     CARD IMAGE -->
+    <img src="https://i.postimg.cc/90hCftcN/Glassmorphic-Form.png" alt="Glassmorphic Form" class="card-img">
+    <!--     CARD DETAILS -->
+    <div class="card-details">
+      <h2 class="card-heading">Glassmorphic Form</h2>
+      <h3 class="card-subtitle">HTML/CSS</h3>
+      <p class="card-description">Glassmorphic styled form using Formspree and Glassmorphism.com</p>
+      <!--       BUTTON GROUP -->
+      <div class="card-buttons">
+        <a href="https://flamboyant-leavitt-a9e2a8.netlify.app/" target="_blank" class="button">Live</a>
+        <a href="https://github.com/JasonWandrag/contact-form" target="_blank" class="button">Github</a>
+      </div>
     </div>
   </div>
   <div class="card">
-    <img src="" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Second Project</h5>
-      <p class="card-text">Flipcards.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">   <p>
-            <a href="https://github.com/ZaneleMoni/flipcards"
-              ><i class="fa fa-github"></i> Github</a
-            >
-          </p></small>
+    <img src="https://i.postimg.cc/90hCftcN/Glassmorphic-Form.png" alt="Glassmorphic Form" class="card-img">
+    <div class="card-details">
+      <h2 class="card-heading">Glassmorphic Form</h2>
+      <h3 class="card-subtitle">HTML/CSS</h3>
+      <p class="card-description">Glassmorphic styled form using Formspree and Glassmorphism.com</p>
+      <div class="card-buttons">
+        <a href="https://flamboyant-leavitt-a9e2a8.netlify.app/" target="_blank" class="button">Live</a>
+        <a href="https://github.com/JasonWandrag/contact-form" target="_blank" class="button">Github</a>
+      </div>
     </div>
   </div>
   <div class="card">
-    <img src="" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Third project</h5>
-      <p class="card-text"></p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><p>
-          <p>
-            <a href=""
-              ><i class="fa fa-github"></i> Github</a
-            >
-          </p>
-        </small>
+    <img src="https://i.postimg.cc/90hCftcN/Glassmorphic-Form.png" alt="Glassmorphic Form" class="card-img">
+    <div class="card-details">
+      <h2 class="card-heading">Glassmorphic Form</h2>
+      <h3 class="card-subtitle">HTML/CSS</h3>
+      <p class="card-description">Glassmorphic styled form using Formspree and Glassmorphism.com</p>
+      <div class="card-buttons">
+        <a href="https://flamboyant-leavitt-a9e2a8.netlify.app/" target="_blank" class="button">Live</a>
+        <a href="https://github.com/JasonWandrag/contact-form" target="_blank" class="button">Github</a>
+      </div>
     </div>
   </div>
-</div>
+</div> 
 </section>
-
 <!-- Testimonial -->
+ <section class="testimonial-section py-3" id="testimonials">
+        <div class="container">
+            <h2 class="align-center pb-3 text-center">
+            </h2>
+            <div class="col-lg-10 testimonials-container">
+                <div class="testimonials-item">
+                    <div class="user row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="user_image">
+                                <img src="pictures/alex.jpg" alt="" title="">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center testimonials-caption pl-0 col-lg-9 col-md-8">
+                            <div class="user_text">
+                                <p class="mbr-text mbr-fonts-style mbr-lighter display-7">
+                                    Ntombizanele is vigilent and takes pride in her work,she is a go getter.
+                                </p>
+                            </div>
+                            <div class="user_name mbr-bold mbr-fonts-style pt-3 font-weight-bold">
+                                Alex Sexwale
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-item">
+                    <div class="user row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="user_image">
+                                <img src="pictures/breda_y1-min.jpg">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center testimonials-caption pr-0 col-lg-9 col-md-8">
+                            <div class="user_text">
+                                <p class="mbr-text mbr-fonts-style mbr-lighter display-7">
+                              Zanele is person who is really easy to work with, I think.
+                              Great personality overall.</p>
+                            </div>
+                            <div class="user_name mbr-bold mbr-fonts-style pt-3 font-weight-bold">
+                              Muhammed Breda
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-item">
+                    <div class="user row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="user_image">
+                                <img src="pictures/unathi.jpg" alt="" title="">
+                                 </div>
+                                  </div>
+                        <div class="d-flex flex-column justify-content-center testimonials-caption pl-0 col-lg-9 col-md-8">
+                            <div class="user_text">
+                                <p class="mbr-text mbr-fonts-style mbr-lighter display-7">
+                               Ntombizanele pays attention to improve the aesthetics of the site as well as the functionality.
+                               Throughout the entire process she is responsive,
+                               and willing to work through issues as they arise.
+                               It’s obvious she takes tremendous pride in her work, 
+                               and I wouldn’t hesitate to recommend or work with her
+                                </p>
+                                 </div>
+                            <div class="user_name mbr-bold mbr-fonts-style pt-3 font-weight-bold">
+                                Unathi Qolweni
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="testimonial">
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
-    <!-- <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></li> -->
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="pictures/muneeb2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Muneeb Davids</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="pictures/lindokuhle3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Lindokuhle Nkamela</h5>
-        <p>.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="pictures/breda_y1-min.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Breda</h5>
-        <p>.</p>
-      </div>
-    </div>
-<div class="carousel-item">
-      <img src="pictures/unathi.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Unathi</h5>
-        <p>.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="pictures/alex.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Mr Alex Sexwale</h5>
-        <p>Ntombizanele is vigilent and takes pride in her work,she is a go getter.</p>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
-</div>
-   </section>
 <!-- Contacts -->
-    <section id="contact" class="container">
+    <section id="contact" class="container p-5">
       <!-- Here I use the bootstrap grid to place all items in the form -->
       <!-- I gave the form a border, and made the border rounded -->
       <div class="row border rounded border-secondary p-5">
@@ -352,13 +330,6 @@
         <!-- End of form half -->
         <!-- Map half of page -->
         <div class="col-md-6">
-          <!-- Map -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2674197088068!2d18.49050991506283!3d-33.985664280624135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1634900641655!5m2!1sen!2sza"
-            style="border: 0; width: 100%; height: 100%"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
         </div>
         <!-- end of map hald -->
       </div>
@@ -369,15 +340,20 @@
      <div class="container">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="https://www.linkedin.com/in/zanele-moni-b88559184/" class="nav-link px-2 text-muted">LinkedIn</a></li>
-      <li class="nav-item"><a href="https://github.com/settings/profile" class="nav-link px-2 text-muted">GitHub</a></li>
-      <li class="nav-item"><a href="https://www.instagram/moni_zanele/" class="nav-link px-2 text-muted">Instagram</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Netlify</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
-    </ul>
-    <p class="text-center text-muted">© 2021 All rights reserved Ntombizanele Moni </p>
-  </footer>
-</div>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/zanele-moni-b88559184/" class="nav-link px-2 text-muted"><i class="fa fa-linkedin"></i>
+        </a>
+          </a>
+           </li>
+      <li class="nav-item"><a href="https://github.com/settings/profile" class="nav-link px-2 text-muted"><i class="fa fa-github"></i></a>
+        </a>
+          </li>
+      <!-- <li class="nav-item"><a href="https://www.instagram.com/moni_zanele/" class="nav-link px-2 text-muted"><i class="fa fa-instagram"></i></a> -->
+           </a>
+            </li>
+             </ul>
+               <p class="copyright">© 2021 All rights reserved Ntombizanele Moni </p>
+                </footer>
+                  </div>
     <!-- Bootsrap bundle with Popper -->
    <script src="bootstrap.bundle.min.js"></script>
 </body>
