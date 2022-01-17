@@ -1,0 +1,21 @@
+body{
+    background-color: #EE8155;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lists{
+    width: 25%;
+    border: 7px solid;
+    margin: 1%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.lists img{
+ width: 100%;
+ height: 50%;
+ object-fit: cover;
+ border-radius: 30%;
+}

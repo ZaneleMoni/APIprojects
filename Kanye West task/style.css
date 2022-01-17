@@ -1,0 +1,10 @@
+body{
+  background-image: url(https://www.varietyinsight.com/images/honoree/Kanye_West.png);
+  background-repeat: no-repeat;
+  text-align:center
+}
+#text{
+  justify-content: center;
+  margin-left: 550px;
+  padding-top: 100px;
+}
